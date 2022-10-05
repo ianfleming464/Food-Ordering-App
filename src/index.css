@@ -1,15 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap'); */
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Noto Sans JP', sans-serif;
+  /* font-family: 'Silkscreen', sans-serif; */
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
   margin: 0;
-  background-color: #3f3f3f;
+  /* background-color: #16161a; */
+  background-color: #555589;
+  opacity: 0.9;
+  background-image: radial-gradient(circle at center center, #a1d839, #555589),
+    repeating-radial-gradient(
+      circle at center center,
+      #a1d839,
+      #a1d839,
+      4px,
+      transparent 8px,
+      transparent 4px
+    );
+  background-blend-mode: multiply;
+  z-index: 0;
 }
-
