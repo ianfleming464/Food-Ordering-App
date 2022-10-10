@@ -6,7 +6,7 @@ const Header = props => {
   return (
     <>
       <header className={classes.header}>
-        <h1>Pizza Napoli</h1>
+        <h1>PIZZA NAPOLI</h1>
         <HeaderCartButton onClick={props.onShowCart} />
       </header>
       <div className={classes['main-image']}>
