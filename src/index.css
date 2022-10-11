@@ -19,17 +19,17 @@ html {
 body {
   margin: 0;
   /* background-color: #16161a; */
-  background-color: #292c30;
+  background-color: #f8f8f8;
   opacity: 0.9;
-  background-image: radial-gradient(circle at center center, #a1d839, #555589),
+  background-image: radial-gradient(circle at center center, #cfd6c1, #cdcdda),
     repeating-radial-gradient(
       circle at center center,
-      #a1d839,
-      #a1d839,
+      #95b15f,
+      #bbc1af,
       4px,
       transparent 8px,
       transparent 4px
     );
-  background-blend-mode: multiply;
+  background-blend-mode: color-burn;
   z-index: 0;
 }

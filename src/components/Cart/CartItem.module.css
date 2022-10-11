@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #8a2b06;
+  border-bottom: 2px solid #99774d;
   padding: 1rem 0;
   margin: 1rem 0;
 }
 
 .cart-item h2 {
   margin: 0 0 0.5rem 0;
-  color: #363636;
+  color: black;
 }
 
 .summary {
@@ -21,7 +21,7 @@
 
 .price {
   font-weight: bold;
-  color: #8a2b06;
+  color: #99774d;
 }
 
 .amount {
@@ -29,12 +29,13 @@
   border: 1px solid #ccc;
   padding: 0.25rem 0.75rem;
   border-radius: 6px;
-  color: #363636;
+  color: #99774d;
 }
 
 .actions {
   display: flex;
   flex-direction: column;
+  color: #99774d;
 }
 
 @media (min-width: 768px) {
